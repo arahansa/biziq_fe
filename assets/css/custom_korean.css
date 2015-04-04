@@ -10,3 +10,7 @@ body{
 }
 .da-slide h2 { font-family: 'Jeju Gothic', "맑은 고딕"}
 .da-slide p {font-family: 'Jeju Gothic', "맑은 고딕"}
+
+.breadcrumbs-v3.breadcrumbs-lg{
+	padding: 80px 0;
+}
