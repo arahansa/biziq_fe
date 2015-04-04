@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="ko" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="ko" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="ko"> <!--<![endif]-->  
+<head>
+    <title>Biziq</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="윤종욱 교수님의 Business Intelligence">
+    <meta name="author" cont1ent="윤종욱 교수님과 제자 최강용">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Web Fonts -->
+    <!-- <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'> -->
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="assets/css/headers/header-default.css">
+    <link rel="stylesheet" href="assets/css/footers/footer-v1.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/animate.css">
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css">
+    <link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- CSS 한글 -->
+    <link rel="stylesheet" href="assets/css/custom_korean.css">
+
+</head>	
+
+<body>
+<div class="wrapper">
+    <!--=== Header ===-->    
+    <div class="header">
+        <div class="container">
+            <!-- Logo -->
+            <a class="logo" href="index.html">
+                <img src="assets/img/logo1-default.png" alt="Logo">
+            </a>
+            <!-- End Logo -->
+            
+            <!-- Topbar -->
+            <div class="topbar">
+                <ul class="loginbar pull-right">
+                    <li class="hoverSelector">
+                        <i class="fa fa-globe"></i>
+                        <a>언어</a>
+                        <ul class="languages hoverSelectorBlock">
+                            <li class="active">
+                                <a href="#">English <i class="fa fa-check"></i></a> 
+                            </li>
+                            <li><a href="#">한국어</a></li>
+                            <li><a href="#">중국어</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="topbar-devider"></li>   
+                    <li><a href="page_faq.html">사이트 맵</a></li>  
+                    <li class="topbar-devider"></li>   
+                    <li><a href="page_login.html">로그인</a></li>   
+                </ul>
+            </div>
+            <!-- End Topbar -->
+
+            <!-- Toggle get grouped for better mobile display -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <!-- End Toggle -->
+        </div><!--/end container-->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <!-- Home -->
+                    <li>
+                        <a href="index.html">
+                            홈
+                        </a>
+                    </li>
+                    <!-- End Home -->
+
+                    <!-- 소개 -->                        
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Biziq소개
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="intro_site.html">사이트 소개</a>
+                            </li>                           
+                            <li>
+                                <a href="intro_master.html">주인장 소개</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End 소개 -->
+
+                    <!-- 이야기 -->                        
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Biziq이야기
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="javascript:void(0);">기업아이큐 단상</a>
+                            </li>                           
+                            <li>
+                                <a href="javascript:void(0);">일상</a>
+                            </li>
+                             <li>
+                                <a href="javascript:void(0);">책마을 산책</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End 이야기 -->
+
+                    <!-- 쉼터 -->                        
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Biziq 쉼터 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="javascript:void(0);">자유게시판</a>
+                            </li>                           
+                            <li>
+                                <a href="javascript:void(0);">BA 강의실</a>
+                            </li>
+                             <li>
+                                <a href="javascript:void(0);">꼬시꼬시</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- End 쉼터 -->
+
+                    
+
+                    <!-- Search Block -->
+                    <li>
+                        <i class="search fa fa-search search-btn"></i>
+                        <div class="search-open">
+                            <div class="input-group animated fadeInDown">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn-u" type="button">Go</button>
+                                </span>
+                            </div>
+                        </div>    
+                    </li>
+                    <!-- End Search Block -->
+                </ul>
+            </div><!--/end container-->
+        </div><!--/navbar-collapse-->
+    </div>
+    <!--=== End Header ===-->
+
+    <!--=== Interactive Slider ===-->
+    <div class="breadcrumbs-v3 breadcrumbs-lg img-v2">
+        <div class="container">
+            <h1>Yoon JongWook</h1>
+            <p>administrator</p>
+            <p>Hyupsung Univ</p>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="col-md-4">
+            <p><small><small>
+    이 사이트는 저의 무지함을 채찍질하고자 하는 바램에서 만들어지는 것입니다. 행여 몽매한 내용이 게시되더라도 길손들께서는 무던히 용서하소서.
+            </small></small></p>
+            </div>
+        </div>
+    </div>
+    <!--=== End Interactive Slider ===-->
+
+
+    
+
+    <!--=== Content Part ===-->
+    <div class="container content-sm">
+    	   <div class="col-md-12">
+            <div class="headline-center-v2 headline-center-v2-dark margin-bottom-10">
+                        <h2>1. 행복을 위하여...</h2>
+                        <span class="bordered-icon"><i class="fa fa-th-large"></i></span>
+            </div> 
+            
+            <p align="center">
+                <img src="http://www.biziq.co.kr/main/images/org_peak.jpg"><br><br>
+                1980년대 초반으로 기억하는데, 여섯 살의 어린 나이에 일본으로 넘어가서 일본 바둑계를 평정한 조치훈 기사가 <br>당시 국내 바둑계의 거봉인 조훈현 기사와의 대국을 위해 한국에 왔습니다. <br>
+                (아마 조치훈 기사가 5집 반을 이겼지요?) 대국이 끝난 후 짓궂은 기자들이 조치훈에게 질문을 했습니다. <br>
+                당시 조치훈 기사의 한국어 솜씨는 더듬거리며 겨우 의사표현을 할 수 있을 정도였습니다.</p> 
+           <hr>
+           
+         </div>
+         <div class="col-md-12">
+              <div class="col-md-3"></div> 
+           <div class="col-md-6">
+            <div id="testimonials-2" class="carousel slide testimonials testimonials-v1">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <p class="rounded">"당신은 여섯 살 때 일본에 가서 
+                            지금까지 평생을 바둑 돌맹이만 만지작거리면서 살았으니,
+                            바둑 이외의 다른 세상은 잘 모르겠군요?"</p>
+                            <div class="testimonial-info">
+                                <img class="rounded-x" src="assets/img/testimonials/user.jpg" alt="">
+                                <span class="testimonial-author">
+                                    홍길동1
+                                    <em>짓궃은 기자 </em>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"> &nbsp; </div> 
+          </div> 
+         
+         <br class="margin-bottom-40" />
+
+         <br>
+         <div class="col-md-12">
+            <p align="center">이에 대한 조치훈의 답변이 걸작이었습니다.</p>  
+         </div>
+ 
+    </div><!--/container-->
+
+    <!--=== Quote v1 ===-->
+    <div class="quote-v1 parallaxBg">
+        <div class="container">
+            <p>어디든 가장 높은 봉우리에 올라서면 <br>
+            발 아래의 나머지 봉우리들은 저절로 내려볼 수 있게 된다우…</p>
+            <span>조치훈 <a href="#">프로바둑기사</a></span>
+        </div>
+    </div>
+    <!--=== End Quote v1 ===-->
+
+
+    <div class="container content-sm">
+        <div class="col-md-12">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+            <p align="center">삶은 뫼비우스의 띠와도 같아서 자신이 어디에 서 있는가는 중요하지 않다고 봅니다. 
+                    <br>
+                다만 뫼비우스 띠 상의 어느 지점에 우연히 속하게 된 우리는, 심겨진 자리에서 최선을 다해 아름다운 꽃을 피우는 것만이 행복을 찾는 길이라 여겨집니다.<br><br>
+우연 반 의지 반으로 정보기술의 세계에 내동댕이쳐진 저는 어느 날 "나는 이 세계를 얼마나 잘 알고 있을까?"라는 자문을 했고, 스스로 확실히 잘 알고 있다고 답하기가 궁색해졌습니다. <br>
+이 사이트는 '정보기술을 이용하여 기업 IQ 높이기'라는 산봉우리를 등반하는 하나의 여정입니다. <br>
+왜 산을 오르냐구요? 그냥 저 자신이 행복해지기 위해서입니다.</p><br><br>
+        </div>  
+            <div class="col-md-2"></div>
+        </div>
+        <hr class="margin-bottom-40"></hr>
+        <div class="col-md-12">
+            <div class="headline-center-v2 headline-center-v2-dark margin-bottom-10">
+                        <h2>2. 퍼즐 (puzzle) 론</h2>
+                        <span class="bordered-icon"><i class="fa fa-th-large"></i></span>
+            </div> 
+            <p align="center">수업 중에 학생들에게 1500 피스 짜리 퍼즐을 빨리 맞추는 방법에 대해 질문을 한 적이 있습니다.</p>
+
+            <div class="col-md-3"></div> 
+           <div class="col-md-6">
+            <div id="testimonials-2" class="carousel slide testimonials testimonials-v1">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <p class="rounded">"테두리부터 먼저 채운다."<br>
+"그림에서 특징 있는 부분 (건물/사람 등)을 먼저 맞춘다."<br>
+"강한 색상이 있는 조각들을 중심으로 맞춘다."<br>
+"점쟁이에게 물어본다."</p>
+                            <div class="testimonial-info">
+                                <img class="rounded-x" src="assets/img/testimonials/user.jpg" alt="">
+                                <span class="testimonial-author">
+                                    학생
+                                    <em>(별 생각이 없이 대답중.. )</em>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"> &nbsp; </div> 
+        </div>
+     </div><!--/container-->    
+    <!-- End Content Part -->
+
+    <!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>
+                        <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
+                        <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>    
+                    </div><!--/col-md-3-->
+                    <!-- End About -->
+
+                    <!-- Latest -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="posts">
+                            <div class="headline"><h2>Latest Posts</h2></div>
+                            <ul class="list-unstyled latest-list">
+                                <li>
+                                    <a href="#">Incredible content</a>
+                                    <small>May 8, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="#">Best shoots</a>
+                                    <small>June 23, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="#">New Terms and Conditions</a>
+                                    <small>September 15, 2014</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--/col-md-3-->  
+                    <!-- End Latest --> 
+                    
+                    <!-- Link List -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="headline"><h2>Useful Links</h2></div>
+                        <ul class="list-unstyled link-list">
+                            <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                        </ul>
+                    </div><!--/col-md-3-->
+                    <!-- End Link List -->                    
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img md-margin-bottom-40">
+                        <div class="headline"><h2>Contact Us</h2></div>                         
+                        <address class="md-margin-bottom-40">
+                            25, Lorem Lis Street, Orange <br />
+                            California, US <br />
+                            Phone: 800 123 3456 <br />
+                            Fax: 800 123 3456 <br />
+                            Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
+                        </address>
+                    </div><!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div> 
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">                     
+                        <p>
+                            2015 &copy; All Rights Reserved.
+                           <a href="#">개인정보 취급 방침</a> | <a href="#">서비스 이용 약관</a>
+                        </p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="col-md-6">
+                        <ul class="footer-socials list-inline">
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
+                                    <i class="fa fa-skype"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Social Links -->
+                </div>
+            </div> 
+        </div><!--/copyright-->
+    </div>
+    <!--=== End Footer Version 1 ===-->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->			
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+<script type="text/javascript" src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+<!-- JS Customization -->
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script>
+<script type="text/javascript" src="assets/js/plugins/parallax-slider.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        OwlCarousel.initOwlCarousel();        
+        ParallaxSlider.initParallaxSlider();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html>
