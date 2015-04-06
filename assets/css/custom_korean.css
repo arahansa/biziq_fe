@@ -30,6 +30,7 @@ ul.history {
   padding: 0;
   list-style: none;
 }
+
 ul.history li .thumb img {
   border-radius: 150px !important;
   margin: 7px 8px;
@@ -68,6 +69,17 @@ ul.history li p {
   margin-left: 53px;
 }
 
+/* Responsive */
+@media (max-width: 550px) {
+  ul.history li .thumb {
+    display: none;
+  }
+
+  ul.history li .featured-box {
+    margin-left: 0;
+  }
+}
+
 .featured-box .box-content {
   border-radius: 8px !important;
   border-top: 3px solid #33B8FF;
@@ -85,7 +97,7 @@ ul.history li p {
   box-sizing: border-box;
   border-bottom: 1px solid #DFDFDF;
   border-left: 1px solid #ECECEC;
-  border-radius: 8px;
+  border-radius: 8px !important;
   border-right: 1px solid #ECECEC;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
   margin-bottom: 20px;
