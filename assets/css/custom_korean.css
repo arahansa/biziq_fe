@@ -132,6 +132,21 @@ div.news-v3-in img{
    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+div.news-v3-in img.leftimg{
+  float: left;
+  padding-right : 30px;
+  padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+  div.news-v3-in img.leftimg{
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 div.news-v3-in h3{
   color: #74c52c;
